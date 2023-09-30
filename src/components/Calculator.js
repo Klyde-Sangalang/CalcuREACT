@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Calculator.css';
+import './CalcStyle.css';
 
 function CalculatorKey({ keyValue, onClick, buttonClassName = "CalcButton" }) {
   return (

@@ -45,18 +45,22 @@ function Calculator() {
       switch (oper) {
         case '+':
           setDisp(String(parseFloat(num1) + parseFloat(num2)));
+          setNum1(String(parseFloat(num1) + parseFloat(num2)));
           break;
         case '-':
           setDisp(String(parseFloat(num1) - parseFloat(num2)));
+          setNum1(String(parseFloat(num1) - parseFloat(num2)));
           break;
         case '*':
           setDisp(String(parseFloat(num1) * parseFloat(num2)));
+          setNum1(String(parseFloat(num1) * parseFloat(num2)));
           break;
         case '/':
           if (num2 === '0') {
             setDisp('ERROR');
           } else {
             setDisp(String(parseFloat(num1) / parseFloat(num2)));
+            setNum1(String(parseFloat(num1) / parseFloat(num2)));
           }
           break;
         default:

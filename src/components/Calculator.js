@@ -67,7 +67,6 @@ function Calculator() {
           setDisp('ERROR');
       }
     }
-    setNum1(null);
     setOper(null);
     setNum2(null);
   };
